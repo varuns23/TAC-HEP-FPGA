@@ -17,8 +17,8 @@ Introduction to FPGA programming. Overview of FPGA, design flow, introduction Hi
 **MEETING TIME AND LOCATION:**
 
 **Zoom coordinates:**
-   https://cern.zoom.us/j/64311841956?pwd=S7FybCBrWQUNV6qbGZ2rSDyEfA9aad.1
-   Meeting ID: 643 1184 1956
+   - https://cern.zoom.us/j/64311841956?pwd=S7FybCBrWQUNV6qbGZ2rSDyEfA9aad.1
+   - Meeting ID: 643 1184 1956
 
 **Lectures:** Tuesdays and Thursday: 12:00 noon - 01:00 pm (MSN)
 
@@ -42,16 +42,15 @@ REQUIRED TEXTBOOK, SOFTWARE AND OTHER COURSE MATERIALS:
 - All softwares will be installed in the available machines
 - HLS manual for reference: https://www.xilinx.com/content/dam/xilinx/support/documents/sw_manuals/ug998-vivado-intro-fpga-design-hls.pdf
 
-** HOMEWORK AND OTHER ASSIGNMENTS:**
+**HOMEWORK AND OTHER ASSIGNMENTS:**
 
 Week 1-7: Weekly assignments
 
 Week 8-14: Project
 
 **GRADING:**
-
-| Weekly assignments | 	50% |
-| Final project |	50% |
+   | Weekly assignments | 	50% |
+   | Final project |	50% |
 
 **TOPICS COVERED**
 - Week-1:
@@ -90,7 +89,3 @@ Week 8-14: Project
     - Introduction to hls4ml and its tutorial
 - Week-13-14
     - Project
-
-
-
-
