@@ -40,7 +40,7 @@ Develop an understanding of the differences between different hardware (CPUs / G
 REQUIRED TEXTBOOK, SOFTWARE AND OTHER COURSE MATERIALS:
 - No required textbook
 - All softwares will be installed in the available machines
-- HLS manual for reference: https://www.xilinx.com/content/dam/xilinx/support/documents/sw_manuals/ug998-vivado-intro-fpga-design-hls.pdf
+- HLS manual for reference: https://docs.amd.com/v/u/en-US/dh0090-vitis-hls-hub
 
 **HOMEWORK AND OTHER ASSIGNMENTS:**
 
