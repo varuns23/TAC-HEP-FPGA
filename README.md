@@ -20,7 +20,7 @@ Introduction to FPGA programming. Overview of FPGA, design flow, introduction Hi
    - https://cern.zoom.us/j/64311841956?pwd=S7FybCBrWQUNV6qbGZ2rSDyEfA9aad.1
    - Meeting ID: 643 1184 1956
 
-**Lectures:** Tuesdays and Thursday: 12:00 noon - 01:00 pm (MSN)
+**Lectures:** Tuesdays and Thursday: 11:00-12:00 CT / 12:00-13:00 ET / 18:00-19:00 CET
 
 **INSTRUCTIONAL MODALITY:**
 
