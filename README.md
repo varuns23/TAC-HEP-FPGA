@@ -21,6 +21,8 @@ Introduction to FPGA programming. Overview of FPGA, design flow, introduction Hi
    - Meeting ID: 643 1184 1956
 
 **Lectures:** Tuesdays and Thursday: 11:00-12:00 CT / 12:00-13:00 ET / 18:00-19:00 CET
+- Slides & recordings: https://cernbox.cern.ch/s/VPBRgfqqyaeKmFM
+- Slack channel: https://uwmadisoncms.slack.com/archives/C08BBUTJ33J
 
 **INSTRUCTIONAL MODALITY:**
 
