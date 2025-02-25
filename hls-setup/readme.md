@@ -59,6 +59,36 @@ Host *.wisc.edu  
 
 ## IP Port forwarding
 
+- Start the VNC server: do this command after you stopped `vncserver` by hand or otherwise, 
+  - `vncserver -localhost -geometry 1024x768`
+  - This command, `vncserver`, tells you the number of your X-Windows Display, 
+    - Example `cmstrigger02.hep.wisc.edu:2`, where :2 is your display
+
+- We use an IP forwarding tunnel to `cmstrigger02.hep.wisc.edu` to see your `cmstrigger02` display on your laptop/desktop. 
+- The command to make that magic is:
+  - `ssh varuns@cmstrigger02-via-login -L5902:localhost:5902` [In separate terminal tab]
+  - Make sure you change ”varuns" to **your user name**, and **"5902" to (5900 + your display number)**, say 5903, if vncserver told you 3!
+
+- You can kill your VNC server (:2) using the command:
+  - `vncserver –kill :2`
+- Check active servers (and kill unnecessary ones):
+  - `vncserver –list` 
 
 
+## Remote Desktop client
+- Download VNC viewer: https://www.realvnc.com/en/connect/download/viewer/ 
+- You can choose any other remote desktop client but this is one of the stable one that I have used
 
+
+## Summary
+- Execute: `ssh varuns@cmstrigger02-via-login -L5901:localhost:5901` 
+  - Or whatever :1 display number
+  - Sometimes you may need to run `vncserver -localhost -geometry 1024x768` again to start new vnc server
+- Connect to VNC server (remote desktop) client
+- Open terminal
+  - For Vivado HLS: 
+    - `Source /opt/Xilinx/Vivado/2020.1/settings64.sh`
+    - `vivado_hls`
+  - For Vitis HLS:
+    - `Source /opt/Xilinx/Vitis/2020.1/settings64.sh`
+    - `vitis_hls`
