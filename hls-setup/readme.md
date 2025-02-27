@@ -86,9 +86,11 @@ Host *.wisc.edu  
   - Sometimes you may need to run `vncserver -localhost -geometry 1024x768` again to start new vnc server
 - Connect to VNC server (remote desktop) client
 - Open terminal
-  - For Vivado HLS: 
+  - **For Vivado HLS:** 
     - `Source /opt/Xilinx/Vivado/2020.1/settings64.sh`
+    - ``cd /scratch/`whoami` `` 
     - `vivado_hls`
-  - For Vitis HLS:
+  - **For Vitis HLS:**
     - `Source /opt/Xilinx/Vitis/2020.1/settings64.sh`
+    - ``cd /scratch/`whoami` `` 
     - `vitis_hls`
