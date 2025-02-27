@@ -8,19 +8,7 @@ int main()
   FILE *oFile;
 
   int inp, output;
-  int coef[N] = {
-      0,
-      -10,
-      -9,
-      23,
-      56,
-      63,
-      56,
-      23,
-      -9,
-      -10,
-      0,
-  };
+  int coef[N] = { 0, -10, -9, 23, 56, 63, 56, 23, -9, -10, 0};
 
   int i, rmp;
   inp = 0;
