@@ -2,28 +2,9 @@
 
 To use the Vitis/Vivado GUI efficiently, we connect using Remote Desktop Protocol (RDP). This is significantly faster and more stable than X11 forwarding.
 
-## Configure SSH Tunneling to cmstrigger02 (via login node)
-- Edit the SSH configuration file on your local machine (laptop/desktop), add the following:
-```
-Host *                                  
-  ControlPath ~/.ssh/control/%C         
-  ControlMaster auto  
-
-Host cmstrigger02-via-login
-    User <username>  
-    HostName cmstrigger02.hep.wisc.edu
-    ProxyCommand ssh login05.hep.wisc.edu nc %h %p
-
-Host *.wisc.edu  
-    User <username>
-```
-- If configured correctly, you will be prompted for your password (possibly twice) and logged into `cmstrigger02` using following command:
-  - `ssh cmstrigger02-via-login`
-
-
 ## Setup Port Forwarding for RDP
   - From your local machine, run: 
-     - `ssh -L 3389:127.0.0.1:3389 cmstrigger02-via-login`
+     - ` ssh -L 3389:localhost:3389 -J <username>@login.hep.wisc.edu <username>@cmstrigger02.hep.wisc.edu`
    - Keep this terminal open - it maintains the RDP tunnel
 
 ## Connect Using Remote Desktop (RDP Client)
