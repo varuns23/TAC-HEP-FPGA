@@ -5,10 +5,6 @@ To use vitis GUI, we will be using Remote Desktop Protocol (RDP) which is faster
 ## Connect to login machine:
   - First connect to login machine: 
      - `ssh -L 3389:127.0.0.1:3389 <username>@login05.hep.wisc.edu`
-  - Connect to cmstrigger02 machine now:
-     - `ssh -XY cmstrigger02`
-     - ``mkdir /scratch/`whoami` ``
-     - `` cd /scratch/`whoami` ``
 
 ## Remote Desktop Protocol client
 - Use Micrsofts RDP client, its free app on MacOS and Windows and goes by the name `Windows App`
@@ -18,9 +14,10 @@ To use vitis GUI, we will be using Remote Desktop Protocol (RDP) which is faster
 
 ## Connect to cmstrigger02 machine via login
 - After successful login, Open a `terminal`
-- Connect to cmstrigger02: `ssh -XY cmstrigger02`
-- ``mkdir /scratch/`whoami` ``
-- `` cd /scratch/`whoami` ``
+- Connect to cmstrigger02:
+  - `ssh -XY cmstrigger02`
+  - ``mkdir /scratch/`whoami` ``
+  - `` cd /scratch/`whoami` ``
   
 ## Set environment for Vivado/Vitis HLS
 - Open terminal
