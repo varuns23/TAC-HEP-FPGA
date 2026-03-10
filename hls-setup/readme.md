@@ -18,8 +18,16 @@ To use the Vitis/Vivado GUI efficiently, we connect using Remote Desktop Protoco
 After logging in via RDP, open a terminal inside the remote desktop
 - ``mkdir -p /scratch/`whoami` `` (if not there already)
 - `` cd /scratch/`whoami` ``
-  - **For Vitis HLS:**
-    - `Source /opt/Xilinx/Vitis/2020.1/settings64.sh`
+  - **For Vitis HLS 2024.1:**
+    - `Source /opt/Xilinx/Vitis/2024.1/settings64.sh`
+    - ``cd /scratch/`whoami` `` 
+    - `vitis_hls`
+  - **For Vitis HLS 2022.1:**
+    - `Source /opt/Xilinx/Vitis/2022.1/settings64.sh`
+    - ``cd /scratch/`whoami` `` 
+    - `vitis_hls`
+  - **For Vitis HLS 2021.1:**
+    - `Source /opt/Xilinx/Vitis/2021.1/settings64.sh`
     - ``cd /scratch/`whoami` `` 
     - `vitis_hls`
   - **For Vivado HLS:** 
