@@ -24,7 +24,7 @@ For each of the four implementations:
 - Finally, compare the results across all four categories and discuss your observations.
 
 
-## Homework # 2 (lecture 5)
+## Homework # 2 (lecture 6)
 Q2. Develop a C/C++ program to sort an array of 16 elements. You may choose any sorting algorithm (e.g., bubble sort, selection sort, insertion sort, or merge sort or write your own sorter). Use Vitis/Vivado HLS to perform `C Simulation (C-Sim)` and `C Synthesis (C-Synth)` and report the results.
 
 
@@ -34,7 +34,7 @@ Q3. Develop multiple versions of a simple computation kernel (e.g., vector addit
   - Compare the resource utilization between standard and arbitrary data types and ap_int and ap_unit, how much it changes and justify the change. 
 
 
-## Homework # 3 (lecture 6)
+## Homework # 3 (lecture 7)
 
 Q4. Use the programs developed in Q1 (vector multiplication and matrix multiplication) with input sizes of at least 10 elements (for vectors) and 6x6 matrices. Enhance your implementations by applying `HLS interface` pragmas and `array partitioning` pragmas.
 
@@ -48,3 +48,13 @@ a) Compare the results obtained from different partitioning strategies
 b) Discuss your observations, focusing on: Performance improvements,   Resource trade-offs, When full vs partial partitioning is beneficial
 
 
+## Homework # 4 (lecture 8)
+
+Q5. Design and optimize an HLS kernel that performs element-wise arithmetic operations on two input arrays and produces multiple outputs. Given two input arrays A[N] and B[N] (N ≥ 64), compute:
+C[i] = A[i] + B[i]
+D[i] = A[i] * B[i]
+E[i] = (A[i] + B[i]) * (A[i] - B[i])
+  a) Implement a simple version using a single loop. Use standard arrays (no pragmas). Measure latency and resource utilization  after synthesis.
+  b) Apply HLS Interface Pragmas: How does interface selection impact throughput and memory access?
+  c) Apply loop pipelining (II=1): Report latency before and after pipelining
+  d) Compare: No partitioning,  Complete partitioning,  Cyclic/block partitioning, reshape
