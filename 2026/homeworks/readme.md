@@ -44,17 +44,17 @@ Perform the following experiments:
    - Partition both dimensions
    - Partition only one dimension
 (Optional for vectors) Apply array partitioning where relevant.
-a) Compare the results obtained from different partitioning strategies
-b) Discuss your observations, focusing on: Performance improvements,   Resource trade-offs, When full vs partial partitioning is beneficial
+- a) Compare the results obtained from different partitioning strategies
+- b) Discuss your observations, focusing on: Performance improvements,   Resource trade-offs, When full vs partial partitioning is beneficial
 
 
 ## Homework # 4 (lecture 8)
 
 Q5. Design and optimize an HLS kernel that performs element-wise arithmetic operations on two input arrays and produces multiple outputs. Given two input arrays A[N] and B[N] (N ≥ 64), compute:
-C[i] = A[i] + B[i]
-D[i] = A[i] * B[i]
-E[i] = (A[i] + B[i]) * (A[i] - B[i])
-  a) Implement a simple version using a single loop. Use standard arrays (no pragmas). Measure latency and resource utilization  after synthesis.
-  b) Apply HLS Interface Pragmas: How does interface selection impact throughput and memory access?
-  c) Apply loop pipelining (II=1): Report latency before and after pipelining
-  d) Compare: No partitioning,  Complete partitioning,  Cyclic/block partitioning, reshape
+ - C[i] = A[i] + B[i]
+ - D[i] = A[i] * B[i]
+ - E[i] = (A[i] + B[i]) * (A[i] - B[i])
+-  a) Implement a simple version using a single loop. Use standard arrays (no pragmas). Measure latency and resource utilization  after synthesis.
+-  b) Apply HLS Interface Pragmas: How does interface selection impact throughput and memory access?
+-  c) Apply loop pipelining (II=1): Report latency before and after pipelining
+-  d) Compare: No partitioning,  Complete partitioning,  Cyclic/block partitioning, reshape
