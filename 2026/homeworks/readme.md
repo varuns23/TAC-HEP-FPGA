@@ -58,3 +58,10 @@ Q5. Design and optimize an HLS kernel that performs element-wise arithmetic oper
 -  b) Apply HLS Interface Pragmas: How does interface selection impact throughput and memory access?
 -  c) Apply loop pipelining (II=1): Report latency before and after pipelining
 -  d) Compare: No partitioning,  Complete partitioning,  Cyclic/block partitioning, reshape
+
+
+
+## Homework # 5 (lecture 9)
+Q6. Explain the difference between Pragma Pipeline and Dataflow with example? 
+Q7. How do you think Latency contraint affect scheduling?
+Q8. Use the example hw5_ex1.cpp to evaluate the initial resource utilization and timing estimates. Then, progressively apply HLS pragmas to minimize resource usage while preserving performance. Use an effective combination of the following pragmas, ensuring that no conflicts are introduced: ARRAY_PARTITION, ARRAY_RESHAPE, PIPELINE, DATAFLOW, LATENCY, ALLOCATION, INLINE, and STABLE.
