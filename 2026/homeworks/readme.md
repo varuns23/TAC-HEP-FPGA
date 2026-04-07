@@ -63,13 +63,17 @@ Q5. Design and optimize an HLS kernel that performs element-wise arithmetic oper
 
 ## Homework # 5 (lecture 9)
 Q6. Explain the difference between Pragma Pipeline and Dataflow with example? 
+
 Q7. How do you think Latency contraint affect scheduling?
+
 Q8. Use the example hw5_ex1.cpp to evaluate the initial resource utilization and timing estimates. Then, progressively apply HLS pragmas to minimize resource usage while preserving performance. Use an effective combination of the following pragmas, ensuring that no conflicts are introduced: ARRAY_PARTITION, ARRAY_RESHAPE, PIPELINE, DATAFLOW, LATENCY, ALLOCATION, INLINE, and STABLE.
 
 
 ## Homework # 6 (lecture 10)
 Q9. Run code "hw6q9" and try to find the reason for why C-Simulation failed? Fix it and report it what was used to make it working. (Please don't use CHAT GPT or any help here). Its very trivial but important logic to understand. 
+
 Q10.Use matrix multiplication example used in Q5. for complete array partitioning and compare the results after using HLS UNROLL pragram and then using both HLS Array Paritioning and UNROLL together. Report your observation. 
+
 Q11. Make a very simple neural network, starting with a single dense layer which is nothing but a weighted Sum. You can assume that you are already have the weight matrix.
 - y_j = Sum_i {x_i*w_ij}, where, x_i is vector, w_ij are weights (ixj matrix).
 - Use a combination of pragma discussed in class so far and get the best optimized results in terms of timing and resource utilization.
